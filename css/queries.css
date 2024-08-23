@@ -1,0 +1,162 @@
+/* 1rem = 1em = 16px */
+
+/* Media small laptops*/
+/* 1340px */
+@media (max-width: 84em) {
+	.hero {
+		max-width: 120rem;
+	}
+
+	.heading-primary {
+		font-size: 4.4rem;
+	}
+
+	.gallery {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+/* Media tablets*/
+/* 1200px */
+@media (max-width: 75em) {
+	html {
+		/* 9px / 16px = 56.2% */
+		font-size: 56.2%;
+	}
+
+	.grid {
+		column-gap: 4.8rem;
+		row-gap: 6.4rem;
+	}
+
+	.heading-secondary {
+		font-size: 3.6rem;
+	}
+
+	.heading-tertiary {
+		font-size: 2.4rem;
+	}
+
+	.header {
+		padding: 0 1.6rem;
+	}
+
+	.hero {
+		gap: 4.8rem;
+	}
+
+	.main-nav-list {
+		gap: 3.2rem;
+	}
+
+	.testimonials {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* Media small tablets*/
+/* 944 */
+@media (max-width: 59em) {
+	html {
+		/* 8px / 16px = 50% */
+		font-size: 50%;
+	}
+
+	.hero {
+		grid-template-columns: 1fr;
+		padding: 0 3.2rem;
+		gap: 6.4rem;
+	}
+
+	.hero-text,
+	.hero-img-box {
+		text-align: center;
+	}
+
+	.hero-img {
+		width: 60%;
+	}
+
+	.delivered-meals {
+		justify-content: center;
+		margin-top: 3.2rem;
+	}
+
+	.logos img {
+		height: 2.4rem;
+	}
+
+	.step-number {
+		font-size: 8rem;
+	}
+
+	.meal-content {
+		padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+	}
+
+	.testimonials {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.section-testimonials {
+		grid-template-columns: 1fr;
+	}
+
+	.gallery {
+		margin: 1.6rem;
+		grid-template-columns: repeat(6, 1fr);
+	}
+
+	.pricing-plan {
+		width: 100%;
+	}
+
+	.cta {
+		grid-template-columns: 3fr 2fr;
+	}
+
+	.cta-form {
+		grid-template-columns: 1fr;
+		gap: 3.2rem;
+	}
+}
+
+/*
+--- 01 TYPOGRAPHY SYSTEM ---
+
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 PX
+
+- FONT WEIGHTS:
+Default: 400
+Bold: 500
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+-LINE HEIGHTS
+Default: 1.05
+
+*/
+
+/*
+--- 02 COLORS ---
+
+-Primary: #E67E22
+-Tints:#fdf2e9
+-Shades:#cf711f
+-Accent:
+-Greys: #555 #333
+*/
+/*
+--- 03 SHADOWS --- 
+ */
+/*
+--- 04 BORDER RADIUS --- 
+Default: 8px
+ */
+/*
+--- 05 WHITE SPACE ---
+
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 PX
+
+ */
