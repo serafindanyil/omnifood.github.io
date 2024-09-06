@@ -6,10 +6,16 @@ yearEl.textContent = currentYear;
 
 // Mobile nav
 const buttonNavEl = document.querySelector(".btn-mobile-nav");
+const buttonSticky = document.querySelector(".main-nav-list");
 const headerEl = document.querySelector(".header");
 
 buttonNavEl.addEventListener("click", function () {
 	headerEl.classList.toggle("nav-open");
+});
+
+// Deleting class nav open after pressing some sticky button
+buttonSticky.addEventListener("click", function () {
+	headerEl.classList.remove("nav-open");
 });
 
 // Sticky navigaiton
